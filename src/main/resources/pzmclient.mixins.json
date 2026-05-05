@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.pzm.pzmclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ClientPlayerInteractionManagerMixin",
+    "InGameHudMixin",
+    "LivingEntityMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
